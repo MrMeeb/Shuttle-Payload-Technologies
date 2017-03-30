@@ -6,6 +6,73 @@ A KSP mod that provides common functionality for mods by Wild Blue Industries.
 
 Copy the contents of the mod's GameData directory into your GameData folder.
 
+1.15
+- Restricted the number of contracts that are offered and/or active.
+- Fixed a situation where experiments weren't registering as completed.
+- Contracts won't be offered until you've orbited the target world and have unlocked the proper tech tree.
+
+1.14
+- New WBIEnhancedExperiment PartModule. It brings the enhanced experiment requirements of WBIModuleScienceExperiments to science parts that don't need to be loaded into an experiment lab.
+- Science system now generates research contracts.
+- Bug fixes
+
+1.12.0
+- Bug Fixes
+
+1.11.0
+- Bug Fixes
+
+1.10.0
+New Props
+- Holoscreen: This prop works the same way as the internal plasma screen, but you can toggle the screen on and off.
+
+Bug Fixes & Enhancements
+- WBIGeoLab now integrates into the Operations Manager.
+- You can properly configure a part to be a battery by using the ConverterSkill.
+- Fixed an issue with WBIHeatRadiator not showing up in the Operations Manager.
+- Fixed an issue with IVAs spawning in the editor when inflating parts.
+- You can now select the default image for the Plasma Screen in addition to screens in the Screenshots folder.
+- Moved the kPad and plasma screens to the Utility tab.
+- The experiment lab now accounts for the science multiplier difficulty setting when generating bonus science.
+
+1.9.0
+- Added WBINameTag, WBIGroundStabilizer, and WBIGeoLab.
+- Added the Buckboard 6000
+
+1.8.10
+- KSP 1.2.2 update.
+
+1.8.9
+- Greenhouse fixes.
+
+1.8.8
+- Bug fixes & enhancements.
+
+1.8.7
+- Disabled angle snap.
+
+1.8.6
+- If the target docking port supports angle snap that you can turn on/off (all WBI docking ports do), and it's turned off, then it will be turned on if the active port's angle snap is turned on.
+
+1.8.5
+
+WBIDockingNodeHelper
+- Added ability to enable/disable angle snap, and the ability to set the snap angle.
+
+Other
+- Cleaned up some logging issues related to missing part modules and textures when supported mods aren't installed.
+
+1.8.4
+- Updated to KSP 1.2.1
+- Minor bug fixes with WBILight
+
+1.8.3
+- Fixed some welding issues.
+- Greenhouses won't harvest crops if you run out of resources.
+
+1.8.1
+- You can now weld ports during eva.
+
 1.8.0
 - Added WBIConvertibleMPL. Use this when you want science labs with stock Mobile Processing Lab functionality to be able to switch to a different configuration.
 
